@@ -1,4 +1,4 @@
-#Failed Variant
+#Failed Variant.
 #Original solution to the problem, however failed due to time and problems regarding the rd variable
 
 n, k = map(int, input().split())
