@@ -1,4 +1,6 @@
 #Successful Variant (Learnt and implemented from the Hackerrank Solution on Programmingoneonone)
+
+#calculating the maximum number of steps that can be taken by the queen
 moves = {'n':(n - r_q), 's':(r_q - 1), 'e':(n - c_q), 'w':(c_q - 1), 'ne':min(n - r_q, n - c_q), 
          'nw':min(n - r_q, c_q - 1), 'se':min(r_q - 1, n - c_q), 'sw':min(r_q - 1, c_q - 1)}
 
