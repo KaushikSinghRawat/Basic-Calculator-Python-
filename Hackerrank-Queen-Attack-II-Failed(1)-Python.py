@@ -3,6 +3,7 @@
 
 n, k = map(int, input().split())
 r_q, c_q = map(int, input(). split())
+obstacles = []
 for _ in range(k):
     obstacles.append(tuple(map(int, input().rstrip().split())))
 
@@ -132,3 +133,7 @@ def queensAttack(n, k, r_q, c_q, obstacles):
     
     #returning total steps that can be taken by the queen
     return (len(ru + rd + cl + cr + dlu + dld + dru + drd))
+
+#Printing results
+result = queensAttack(n, k, r_q, c_q, obstacles)
+print (result)
