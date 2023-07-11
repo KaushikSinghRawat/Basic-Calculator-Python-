@@ -1,3 +1,6 @@
+#Random Number Guesser which generates a random number and requests a answer.
+#If the answer is not correct, displays whether the answer is lower or higher from the random number
+
 import random
 
 top_range = int(input("Enter the top range: ").strip())
