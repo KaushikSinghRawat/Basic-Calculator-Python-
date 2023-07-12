@@ -1,3 +1,5 @@
+# Stone/Paper/Scissor Player with a Score Counter
+
 import random
 
 stone_paper_scissor = None
